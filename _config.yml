@@ -279,7 +279,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "https://github.com/wlslwlsl/wlslwlsl.github.io/blob/master/docs/_posts/2021-11-08-hellotest.md"
+      path: ""
       type: posts
     values:
       layout: single
@@ -288,3 +288,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
