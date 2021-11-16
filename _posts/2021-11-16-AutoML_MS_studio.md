@@ -1,12 +1,11 @@
 ---
 date: 2021-11-16
-title: "MicroSoft Azure Machine Learning - 스튜디오"
+title: "MicroSoft Azure Machine Learning - Studio"
 categories: AutoML
 tags:
   - AutoML
   - 자동화
   - MS
-  - jupyter
   - Azure
 # 목차
 toc: true  
