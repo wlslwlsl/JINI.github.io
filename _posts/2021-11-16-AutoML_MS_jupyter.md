@@ -33,12 +33,12 @@ Azure Machine Learning을 사용하여 실습
 Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 작업 영역을 선택한 가정에서 진행
 
 
-## Jupyter Notebook
+## <span style="color:#9BC3FF; font-weight:bold"> Jupyter Notebook </span>
 
 
 ### 1. Notebook 선택
 
-![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png ){: .align-center}
+![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png )
 
 → 왼쪽에 있는 Notebook에서 샘플탭 선택
 
@@ -60,7 +60,7 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 
 *tutorials/regression-automl-nyc-taxi-data/regression-automated-ml.ipynb* 파일 선택
 
-![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png ){: .align-center}
+![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png )
 
 → 컴퓨팅을 선택하여 실행하면 된다.
 
