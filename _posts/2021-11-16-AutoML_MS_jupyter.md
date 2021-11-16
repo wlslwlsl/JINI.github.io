@@ -13,7 +13,7 @@ toc: true
 toc_sticky: true 
 ---
 
-
+AutoML : MicroSoft Azure Machine Learning - Jupyter Notebook
 
 ## Azure AutoML 무료 계정 생성 URL
 [계정만들기](https://azure.microsoft.com/ko-kr/free/search/?&ef_id=Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB:G:s&OCID=AID2100068_SEM_Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB:G:s&gclid=Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB)
@@ -39,7 +39,7 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 ### 1. Notebook 선택
 
 
-![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png){: .center}
+![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png)
 
 
 → 왼쪽에 있는 Notebook에서 샘플탭 선택
@@ -62,7 +62,7 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 
 *tutorials/regression-automl-nyc-taxi-data/regression-automated-ml.ipynb* 파일 선택
 
-![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png){: .center}
+![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png)
 
 → 컴퓨팅을 선택하여 실행하면 된다.
 
