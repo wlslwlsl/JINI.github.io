@@ -132,7 +132,3 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 
 
 참고 : [MachineLearningNotebooks](https://github.com/Azure/MachineLearningNotebooks)
-
-
-
-﻿

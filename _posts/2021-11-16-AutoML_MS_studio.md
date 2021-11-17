@@ -150,8 +150,3 @@ AutoML : MicroSoft Azure Machine Learning - Studio
 - 목록에서 만든 리소스 그룹을 선택
 
 - **리소스 그룹 삭제**를 선택
-
-
-﻿
-
-﻿
