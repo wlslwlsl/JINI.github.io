@@ -1,7 +1,7 @@
 ---
-title: Paper Review
+title: Paper_Review
 layout: category
-permalink: /categories/Paper Review
+permalink: /categories/Paper_Review
 taxonomy: Paper Review
 ---
 
