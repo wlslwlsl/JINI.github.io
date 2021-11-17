@@ -39,7 +39,7 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 ### 1. Notebook 선택
 
 
-![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png)
+![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png){:.aligncenter}
 
 
 → 왼쪽에 있는 Notebook에서 샘플탭 선택
@@ -62,7 +62,7 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 
 *tutorials/regression-automl-nyc-taxi-data/regression-automated-ml.ipynb* 파일 선택
 
-![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png)
+![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png){:.aligncenter}
 
 → 컴퓨팅을 선택하여 실행하면 된다.
 
