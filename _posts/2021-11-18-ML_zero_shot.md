@@ -11,6 +11,7 @@ tags:
   - 소량
   - 레이블
 key: "Zero-Shot Learning"
+comments: true
 
 # 목차
 toc: true  
