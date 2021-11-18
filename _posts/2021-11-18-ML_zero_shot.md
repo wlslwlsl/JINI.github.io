@@ -10,7 +10,7 @@ tags:
   - one-shot learning
   - 소량
   - 레이블
-
+key: "Zero-Shot Learning"
 # 목차
 toc: true  
 toc_sticky: true 
