@@ -21,9 +21,11 @@ toc_sticky: true
 
 ## 기본개념
 
-<center>**Zero-Shot Learning**</center>
+**<center>Zero-Shot Learning</center>**
 
-<center><u>**데이터를 보지 않아도 분류 가능하도록 학습하는 것**</u></center>
+**<center><u>데이터를 보지 않아도 분류 가능하도록 학습하는 것</u></center>**
+
+
 
 인공지능이든 기계학습이든 데이터는 중요하다. 
 
@@ -33,13 +35,16 @@ toc_sticky: true
 
 ​이러한 현실 문제와 한계를 해결할 수 있는 것이 zero-shot learning 인 것 같아 관심을 가지게 되었다. 
 
-
 ​
 ## Zero-Shot Learning 이란?
 
 **일반적인 사람의 능력을 학습으로 바꾼것이며 전이학습에서 발전된 기계학습의 한 종류이다. **
 
 **즉, <u>데이터 간의 관계와 공통점으로 정답을 찾는 것!</u>**
+
+
+<br><br>
+
 
 ## 특징
 
