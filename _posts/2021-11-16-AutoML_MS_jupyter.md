@@ -1,6 +1,7 @@
 ---
 date: 2021-11-16
 title: "MicroSoft Azure Machine Learning - Jupyter Notebook"
+subtitle: "AutoML : MicroSoft Azure Machine Learning - Jupyter Notebook"
 categories: AutoML
 tags:
   - AutoML
@@ -13,7 +14,6 @@ toc: true
 toc_sticky: true 
 ---
 
-AutoML : MicroSoft Azure Machine Learning - Jupyter Notebook
 
 ## Azure AutoML 무료 계정 생성 URL
 [계정만들기](https://azure.microsoft.com/ko-kr/free/search/?&ef_id=Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB:G:s&OCID=AID2100068_SEM_Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB:G:s&gclid=Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB)

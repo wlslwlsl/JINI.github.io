@@ -1,6 +1,7 @@
 ---
 date: 2021-11-16
 title: "MicroSoft Azure Machine Learning - Studio"
+subtitle: "AutoML : MicroSoft Azure Machine Learning - Studio"
 categories: AutoML
 tags:
   - AutoML
@@ -12,7 +13,6 @@ toc: true
 toc_sticky: true 
 ---
 
-AutoML : MicroSoft Azure Machine Learning - Studio
 
 ## <span style="color:#9BC3FF; font-weight:bold"> 스튜디오(자동화된 ML) </span>
 

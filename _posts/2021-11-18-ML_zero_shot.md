@@ -1,6 +1,7 @@
 ---
 date: 2021-11-18
 title: "Zero-Shot Learning"
+subtitle: "Zero-Shot Learning 이란?"
 categories: 기계학습
 tags:
   - image
@@ -15,7 +16,7 @@ toc: true
 toc_sticky: true 
 ---
 
-Zero-Shot Learning 이란?
+
 
 
 ## 기본개념
