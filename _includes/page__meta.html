@@ -1,21 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; color: #1b1f23; -webkit-text-stroke: 0px #1b1f23}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">{% assign document = post | default: page %} {% if document.read_time or document.show_date %}</span></p>
-<p class="p2"><span class="s1">{% if document.show_date and document.date %} {% assign date = document.date %} {% assign date_format = site.date_format | default: "%B %-d, %Y" %} {{ date | date: date_format }} {% endif %} {% if document.read_time and document.show_date %}{% endif %} {% if document.read_time %} {% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %} {% assign words = document.content | strip_html | number_of_words %} {% if words &lt; words_per_minute %} {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }} {% elsif words == words_per_minute %} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }} {% else %} {{ words | divided_by: words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }} {% endif %} {% endif %} </span><span class="s2">{% if page.subtitle %}{{ page.subtitle }}{% endif %}</span></p>
-<p class="p1"><span class="s1">{% endif %}<span class="Apple-converted-space"> </span></span></p>
-</body>
-</html>
+{% assign document = post | default: page %}
+{% if document.read_time or document.show_date %}
+  <p class="page__meta">
+    {% if document.show_date and document.date %}
+      {% assign date = document.date %}
+      <span class="page__meta-date">
+        <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
+        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+        <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
+      </span>
+    {% endif %}
+    {% if page.subtitle %}
+        <p id="page-subtitle" class="page__subtitle p-name" itemprop="headline">
+        {{ page.subtitle }}
+        </p>
+    {% endif %}
+    {% if document.read_time and document.show_date %}<span class="page__meta-sep"></span>{% endif %}
+
+    {% if document.read_time %}
+      {% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
+      {% assign words = document.content | strip_html | number_of_words %}
+
+      <span class="page__meta-readtime">
+        <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-clock" aria-hidden="true"></i>
+        {% if words < words_per_minute %}
+          {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+        {% elsif words == words_per_minute %}
+          1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+        {% else %}
+          {{ words | divided_by: words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
+        {% endif %}
+      </span>
+    {% endif %}
+  </p>
+{% endif %}
