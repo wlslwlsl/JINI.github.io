@@ -293,11 +293,3 @@ defaults:
       layout: single
       author_profile: false
       share: False
-  # _about
-  - scope:
-      path: "_about"
-      type: about
-    values:
-      layout: single
-      author_profile: false
-      share: False
