@@ -7,4 +7,6 @@ toc_sticky: true
 ---
 
 
-About test
+**늦게나마 공부하는 것을 정리하려고 만든 블로그**
+
+
