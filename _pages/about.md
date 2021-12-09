@@ -12,7 +12,7 @@ toc_sticky: true
 
 안녕하세요:)
 
-저는 현재 인공지능 연구소에서 **AI Research engineer**를 담당하고 있는 <span style="color:#87CEFA">**선임연구원 김진희**</span> 입니다.
+저는 현재 인공지능 연구소에서 **AI Research engineer** 를 담당하고 있는 <span style="color:#87CEFA"> **선임연구원 김진희** </span> 입니다.
 
 늦게나마 공부하는 것을 공유하려고 만든 깃 블로그로 도움이 되면 좋겠습니다.
 </center>
