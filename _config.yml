@@ -1,7 +1,8 @@
 theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #google_search
-google-site-verification: ZCOdLOYqLocZJDG6PHwNZ2HFDGMjqoI2Zzm2teE1A14
+#google-site-verification: ZCOdLOYqLocZJDG6PHwNZ2HFDGMjqoI2Zzm2teE1A14
+
 # Site Settings
 locale                   : "en-US"
 title                    : "GIGAJINI"
