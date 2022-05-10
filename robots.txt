@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://wlslwlsl.github.io/sitemap.xml
