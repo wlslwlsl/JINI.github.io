@@ -82,9 +82,9 @@ toc_sticky: true
 
 
 10) 해당 화면에서 데이터를 선택한 후 다음을 클릭
-
+{%raw%}
 ![studio_6]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/s6.png){:.aligncenter}
-
+{%endraw%}
 
 ## 2. 실행구성
 
