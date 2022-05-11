@@ -14,7 +14,6 @@ toc: true
 toc_sticky: true 
 ---
 
-
 ## Azure AutoML 무료 계정 생성 URL
 [계정만들기](https://azure.microsoft.com/ko-kr/free/search/?&ef_id=Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB:G:s&OCID=AID2100068_SEM_Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB:G:s&gclid=Cj0KCQiA6t6ABhDMARIsAONIYyyEgVPa8oL6tWphXpORyHS0f-qiffy41o3VvuoTX8WFpCtQbmtfQVYaAjqREALw_wcB)
 
@@ -38,9 +37,9 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 
 ### 1. Notebook 선택
 
-
+{%raw%}
 ![process_1]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j1.png){:.aligncenter}
-
+{%endraw%}
 
 → 왼쪽에 있는 Notebook에서 샘플탭 선택
 
@@ -61,9 +60,9 @@ Azure Machine Learning Studio에 로그인 후 해당 구독과 직접 만든 �
 * 진행하고자 하는 파일을 선택하기
 
 *tutorials/regression-automl-nyc-taxi-data/regression-automated-ml.ipynb* 파일 선택
-
+{%raw%}
 ![process_2]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/AutoML/j2.png){:.aligncenter}
-
+{%endraw%}
 → 컴퓨팅을 선택하여 실행하면 된다.
 
 → 컴퓨팅이 없다면 새 컴퓨팅을 추가해준다.(무료 계정 생성시 주어진 크레딧으로 결제되는 것 같음)
