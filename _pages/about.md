@@ -5,9 +5,9 @@ title: "About"
 toc: true  
 toc_sticky: true 
 ---
-
+{%raw%}
 ![me]({{https://github.com/wlslwlsl/wlslwlsl.github.io}}/assets/me.jpg){:.aligncenter}
-
+{%endraw%}
 <center>
 
 안녕하세요:)
